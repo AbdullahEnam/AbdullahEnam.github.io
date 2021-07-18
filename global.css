@@ -6,7 +6,7 @@ h1 {
     font-size: 50px;
 }
 p {
-    font-size: 40px;
+    font-size: 25px;
 }
 h1:hover {
     color: aqua;
@@ -19,7 +19,7 @@ h1:hover {
     transition: all 250ms ease-out;
 }
 img {
-    width: 30%;
+    width: 70%;
 }
 a {
     padding: 20px;
