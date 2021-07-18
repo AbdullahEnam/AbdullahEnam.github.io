@@ -1,0 +1,47 @@
+*{
+    background-color: bisque;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 40px;
+}
+h1:hover {
+    color: aqua;
+    border: 3px black solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1px;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+img {
+    width: 30%;
+}
+a {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: skyblue;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+a:hover {
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: orange;
+    margin-bottom: 5px;
+    color: white;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+h6 {
+    text-align: right;
+}
