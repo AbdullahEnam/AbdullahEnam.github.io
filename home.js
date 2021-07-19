@@ -1,1 +1,1 @@
-alert ("just a website.... nothing else....😶")
+alert ("Update: there is a calculator now! 🎉")
