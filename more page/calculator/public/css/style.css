@@ -1,0 +1,159 @@
+@media(min-width: 632px) {
+    * {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background-color: sienna;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#container {
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+}
+#calculator {
+    width: 70%;
+}
+#num1 {
+    margin-top: 75px;
+    margin-bottom: 8px;
+}
+#num1, #num2 {
+    width: 99.2%;
+    text-align: left;
+    background: skyblue;
+    box-shadow: 2px 2px 4px blue, -2px -2px 5px navy;
+}
+#operators {
+    width: 100%;
+    background: brown;
+    box-shadow: 2px 2px 4px palevioletred, -2px -2px 5px red;
+}
+button {
+    width: 100%;
+    background: gray;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 4px grey, -2px -2px 5px gainsboro;
+}
+#result {
+    width: 99.2%;
+    text-align: left;
+    margin-bottom: 100px;
+    background: lightgreen;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px lawngreen, -2px -2px 5px green;
+}
+#home_page {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 20px 45px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    margin-bottom: 200px
+}
+#home_page:hover {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: lightgreen;
+    margin-bottom: 5px;
+    color: white;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+}
+@media(max-width: 631px) {
+    * {
+        text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+    }
+    #header {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        background-color: sienna;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    #header:hover {
+        color: lightgreen;
+    }
+    #container {
+        /* background-color: teal; */
+        display: flex;
+        justify-content: center;
+    }
+    #calculator {
+        width: 70%;
+    }
+    #num1 {
+        margin-top: 75px;
+        margin-bottom: 8px;
+    }
+    #num1, #num2 {
+        width: 99.2%;
+        text-align: left;
+        background: skyblue;
+        box-shadow: 2px 2px 4px blue, -2px -2px 5px navy;  
+    }
+    #operators {
+        width: 100%;
+        background: brown;
+        box-shadow: 2px 2px 4px palevioletred, -2px -2px 5px red;
+    }
+    button {
+        width: 100%;
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 2px 2px 4px grey, -2px -2px 5px gainsboro;
+    }
+    #result {
+        width: 99.2%;
+        text-align: left;
+        margin-bottom: 70px;
+        background: lightgreen;
+        color: black;
+        font-weight: bold;
+        box-shadow: 2px 2px 4px lawngreen, -2px -2px 5px green;
+    }
+    #home_page {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        padding: 20px 45px;
+        border-radius: 20px;
+        background-color: lightcoral;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+        margin-bottom: 200px
+    }
+    #home_page:hover {
+        text-decoration: none;
+        padding: 20px 40px;
+        border-radius: 30px;
+        background-color: lightgreen;
+        margin-bottom: 5px;
+        color: white;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+}
