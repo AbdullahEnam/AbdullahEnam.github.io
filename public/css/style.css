@@ -1,0 +1,184 @@
+@media (min-width: 526px) {
+    * {
+        text-align: center;
+        background-color: gainsboro;
+        padding: 0;
+        margin: 0;
+    }
+    #header {
+        text-align: center;
+    }
+    #salam {
+        font-size: 50px;
+    }
+    #salam:hover {
+    
+        color: white;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+    #welcome {
+        font-size: 25px;    
+        margin-bottom: 50px;
+    }
+    #welcome:hover {
+        font-size: 25px;
+        font-weight: bolder;
+        -webkit-transition: all 500ms ease-out;
+        -ms-transition: all 500ms ease-out;
+        transition: all 500ms ease-out;
+    
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #first_link {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: larger;
+        color: black;
+        border-radius: 5px;
+        background-color: skyblue;
+        margin: 0 35% 0 35%;
+        padding: 10px 0 10px 0;
+    }
+    #first_link:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: x-large;
+        color: white;
+        margin: 20px;
+        background-color: orange;
+        padding: 15px 4% 15px 4%;
+        border-radius: 20px;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+    #soon {
+        font-weight: bolder;
+        font-size: larger;
+        color: black;
+        border-radius: 5px;
+        background-color: skyblue;
+        margin: 0 35% 0 35%;
+        padding: 10px 0 10px 0;
+    }
+    /* soon:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: x-large;
+        color: white;
+        margin: 20px;
+        padding: 15px 4% 15px 4%;
+        border-radius: 20px;
+        background-color: orange;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    } */
+    /* #footer {
+    
+    } */
+    #version {
+        margin-top: 25px;
+        text-align: right;
+        font-size: 10px;
+    }
+}
+@media (max-width: 526px) {
+    * {
+        text-align: center;
+        background-color: gainsboro;
+        padding: 0;
+        margin: 0;
+    }
+    #header {
+        text-align: center;
+    }
+    #salam {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #salam:hover {
+    
+        color: white;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+    #welcome {
+        font-size: 20px;    
+        margin-bottom: 40px;
+    }
+    #welcome:hover {
+        color: rgb(92, 6, 6);
+        font-size: 20px;
+        font-weight: bolder;
+        -webkit-transition: all 500ms ease-out;
+        -ms-transition: all 500ms ease-out;
+        transition: all 500ms ease-out;
+    
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #first_link {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 12px;
+        color: black;
+        border-radius: 5px;
+        background-color: skyblue;
+        margin: 0 25% 0 25%;
+        padding: 10px 0 10px 0;
+    }
+    #first_link:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 14px;
+        color: white;
+        margin: 10px;
+        background-color: orange;
+        padding: 15px 4% 15px 4%;
+        border-radius: 20px;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    }
+    #soon {
+        font-weight: bolder;
+        font-size: 12px;
+        color: black;
+        border-radius: 5px;
+        background-color: skyblue;
+        margin: 0 25% 0 25%;
+        padding: 10px 0 10px 0;
+    }
+    /* soon:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: x-large;
+        color: white;
+        margin: 20px;
+        padding: 15px 4% 15px 4%;
+        border-radius: 20px;
+        background-color: orange;
+        -webkit-transition: all 250ms ease-out;
+        -ms-transition: all 250ms ease-out;
+        transition: all 250ms ease-out;
+    } */
+    /* #footer {
+    
+    } */
+    #version {
+        margin-top: 25px;
+        text-align: right;
+        font-size: 10px;
+    }
+}
